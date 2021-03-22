@@ -1,0 +1,108 @@
+{
+  "projectName" : "colony",
+  "projectDescription" : "",
+  "comment" : "Default Comment",
+  "projectType" : "SEGM",
+  "createdDate" : "2021/46/26 16:46:53",
+  "modifyDate" : "2021/07/28 18:07:49",
+  "version" : "1.0.0",
+  "projectPath" : "C:\\Users\\prodanov\\Documents\\colony",
+  "pluginPath" : [ "C:\\APPLIC~1\\ImageJ2\\plugins\\activeSegmentation\\ACTIVE_SEG.jar" ],
+  "trainingStack" : "",
+  "testingStack" : "",
+  "filters" : [ {
+    "G_SEP" : "false",
+    "Filter" : "GAUSSIAN Jet",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_Yn" : "0",
+    "G_SCNORM" : "false",
+    "enabled" : "false",
+    "G_Xn" : "1"
+  }, {
+    "G_SEP" : "true",
+    "Filter" : "LOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_SCNORM" : "false",
+    "enabled" : "true"
+  }, {
+    "G_slen" : "4",
+    "Filter" : "STRUCTURE",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "false",
+    "enabled" : "true"
+  }, {
+    "Filter" : "CURVATURE",
+    "G_MAX" : "8",
+    "enabled" : "true",
+    "GK_len" : "2"
+  }, {
+    "G_SEP" : "false",
+    "Filter" : "GAUSSIAN",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_Yn" : "1",
+    "G_SCNORM" : "false",
+    "enabled" : "true",
+    "G_Xn" : "1"
+  }, {
+    "G_SEP" : "false",
+    "Filter" : "BOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_iso" : "true",
+    "enabled" : "false"
+  }, {
+    "Filter" : "ALOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "false",
+    "enabled" : "true"
+  }, {
+    "Filter" : "FLOG",
+    "G_len" : "1",
+    "G_MAX" : "9",
+    "enabled" : "false"
+  }, {
+    "Filter" : "CURVATURE1",
+    "G_MAX" : "8",
+    "enabled" : "true",
+    "GK_len" : "2"
+  }, {
+    "Filter" : "HESSIAN",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "true",
+    "enabled" : "true"
+  }, {
+    "Filter" : "FGAUSS",
+    "G_len" : "1",
+    "G_MAX" : "9",
+    "enabled" : "false"
+  } ],
+  "featureList" : [ {
+    "key" : "05549c87-e748-4761-b8ef-9f65ee525bf5",
+    "label" : "label2",
+    "zipFile" : "ROISET05549c87-e748-4761-b8ef-9f65ee525bf5.zip",
+    "color" : -65536,
+    "trainingList" : {
+      "Cell_Colony1.jpg" : [ "0153-0245", "0108-0324", "0154-0346", "0102-0161" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "274254c2-79ee-43d8-ab04-46bfd4f926f6",
+    "label" : "label1",
+    "zipFile" : "ROISET274254c2-79ee-43d8-ab04-46bfd4f926f6.zip",
+    "color" : -16711936,
+    "trainingList" : {
+      "Cell_Colony1.jpg" : [ "0045-0312", "0068-0204", "0213-0332" ]
+    },
+    "testingList" : { }
+  } ],
+  "learning" : { },
+  "groundtruth" : "",
+  "featureSelection" : "NONE",
+  "classes" : 2
+}

@@ -1,0 +1,109 @@
+{
+  "projectName" : "freya",
+  "projectDescription" : "",
+  "comment" : "Default Comment",
+  "projectType" : "SEGM",
+  "createdDate" : "2019/07/07 15:07:48",
+  "modifyDate" : "2021/50/23 19:50:03",
+  "version" : "1.0.0",
+  "projectPath" : "C:\\Users\\prodanov\\Documents\\freya",
+  "pluginPath" : [ "C:\\Applications\\ImageJ\\plugins\\activeSegmentation\\ACTIVE_SEG.jar" ],
+  "filters" : [ {
+    "G_SEP" : "false",
+    "Filter" : "GAUSSIAN Jet",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_Yn" : "0",
+    "G_SCNORM" : "false",
+    "enabled" : "true",
+    "G_Xn" : "1"
+  }, {
+    "G_SEP" : "true",
+    "Filter" : "LOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_SCNORM" : "false",
+    "enabled" : "true"
+  }, {
+    "G_slen" : "4",
+    "Filter" : "STRUCTURE",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "false",
+    "enabled" : "true"
+  }, {
+    "Filter" : "CURVATURE",
+    "G_MAX" : "8",
+    "enabled" : "true",
+    "GK_len" : "2"
+  }, {
+    "G_SEP" : "false",
+    "Filter" : "GAUSSIAN",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_Yn" : "0",
+    "G_SCNORM" : "false",
+    "enabled" : "true",
+    "G_Xn" : "1"
+  }, {
+    "G_SEP" : "false",
+    "Filter" : "BOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "G_iso" : "true",
+    "enabled" : "true"
+  }, {
+    "Filter" : "ALOG",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "false",
+    "enabled" : "true"
+  }, {
+    "Filter" : "FLOG",
+    "G_len" : "1",
+    "G_MAX" : "9",
+    "enabled" : "true"
+  }, {
+    "Filter" : "HESSIAN",
+    "G_len" : "2",
+    "G_MAX" : "8",
+    "Full_out" : "true",
+    "enabled" : "true"
+  }, {
+    "Filter" : "FGAUSS",
+    "G_len" : "1",
+    "G_MAX" : "9",
+    "enabled" : "true"
+  } ],
+  "featureList" : [ {
+    "key" : "6933599e-c80f-4fd9-b261-25ccbaba2571",
+    "label" : "nuclei",
+    "zipFile" : "ROISET6933599e-c80f-4fd9-b261-25ccbaba2571.zip",
+    "color" : -16711936,
+    "trainingList" : {
+      "data_freya_example_slice_21.png" : [ "0504-0525", "0478-0424", "0740-0540", "0748-0366", "0616-0326", "0730-0385", "0301-0383" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "c3d71d79-6abf-42bd-bd9f-b716a27d969e",
+    "label" : "background",
+    "zipFile" : "ROISETc3d71d79-6abf-42bd-bd9f-b716a27d969e.zip",
+    "color" : -16776961,
+    "trainingList" : {
+      "data_freya_example_slice_21.png" : [ "0265-0935", "0202-0133", "0768-0546", "0662-0487", "0142-0607", "0276-0673", "0146-0379" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "dece336f-d9e0-43de-a7d5-92d8b5c43a2c",
+    "label" : "bright",
+    "zipFile" : "ROISETdece336f-d9e0-43de-a7d5-92d8b5c43a2c.zip",
+    "color" : -65536,
+    "trainingList" : {
+      "data_freya_example_slice_21.png" : [ "0408-0507", "0432-0476", "0570-0543" ]
+    },
+    "testingList" : { }
+  } ],
+  "learning" : { },
+  "featureSelection" : "Principle Component Analysis",
+  "classes" : 2
+}
