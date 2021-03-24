@@ -1,0 +1,59 @@
+{
+  "projectName" : "nuclei_seg",
+  "projectDescription" : "sdfs",
+  "comment" : "Default Comment",
+  "projectType" : "SEGM",
+  "createdDate" : "2021/39/14 12:39:16",
+  "modifyDate" : "2021/57/14 12:57:06",
+  "version" : "1.0.0",
+  "projectPath" : "C:\\Users\\vohra\\presentation\\nuclei_seg",
+  "pluginPath" : [ "C:\\Users\\vohra\\Documents\\ij153-win-java8\\ImageJ\\plugins\\activeSegmentation\\ACTIVE_SEG.jar" ],
+  "trainingStack" : "",
+  "testingStack" : "",
+  "filters" : [ ],
+  "featureList" : [ {
+    "key" : "025b0f8f-ea70-4cf9-a9df-465133064d9f",
+    "label" : "label0",
+    "zipFile" : "ROISET025b0f8f-ea70-4cf9-a9df-465133064d9f.zip",
+    "color" : -16776961,
+    "trainingList" : {
+      "plants11.tif" : [ "0013-0002", "0025-0070" ],
+      "plants21.tif" : [ "0012-0002", "0061-0074" ],
+      "plants19.tif" : [ "0062-0065", "0010-0005" ],
+      "plants13.tif" : [ "0014-0063" ],
+      "plants14.tif" : [ "0014-0062", "0060-0010" ],
+      "plants15.tif" : [ "0008-0002", "0030-0072", "0061-0068" ],
+      "plants18.tif" : [ "0038-0069" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "bca7e04d-36cb-4e7e-ab4b-51379382f8cd",
+    "label" : "label1",
+    "zipFile" : "ROISETbca7e04d-36cb-4e7e-ab4b-51379382f8cd.zip",
+    "color" : -16711936,
+    "trainingList" : {
+      "plants24.tif" : [ "0016-0020" ],
+      "plants19.tif" : [ "0057-0041", "0023-0022" ],
+      "plants13.tif" : [ "0020-0034" ],
+      "plants14.tif" : [ "0023-0042", "0019-0024" ],
+      "plants15.tif" : [ "0049-0018" ],
+      "plants18.tif" : [ "0018-0040" ]
+    },
+    "testingList" : { }
+  }, {
+    "key" : "e073388d-113e-4ac4-9c30-59e9cdfedfb9",
+    "label" : "label2",
+    "zipFile" : "ROISETe073388d-113e-4ac4-9c30-59e9cdfedfb9.zip",
+    "color" : -65536,
+    "trainingList" : {
+      "plants13.tif" : [ "0040-0032", "0040-0047" ],
+      "plants14.tif" : [ "0039-0033", "0042-0049" ],
+      "plants18.tif" : [ "0040-0032" ]
+    },
+    "testingList" : { }
+  } ],
+  "learning" : { },
+  "groundtruth" : "",
+  "featureSelection" : "",
+  "classes" : 2
+}
